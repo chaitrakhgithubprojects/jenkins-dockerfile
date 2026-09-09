@@ -71,7 +71,7 @@ pipeline {
         }
 
         failure {
-            echo "Pipeline failed. Check the logs."
+            echo "Pipeline failed. Check the logs.,"
         }
 
         always {
